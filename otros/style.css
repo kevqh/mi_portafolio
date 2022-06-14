@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fondo{
+    position: absolute;
+    top: 20px;
+    left: 200px;
+    /* border: 1px solid rgb(214, 214, 214); */
+    box-shadow: 0px 80px 50px -50px rgb(201, 201, 201);
+    
+}
