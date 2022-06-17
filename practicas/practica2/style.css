@@ -1,201 +1,120 @@
-body {
+* {
     padding: 0;
     margin: 0;
-    width: 90vw;
 }
 
 .menu {
-    background-color: #00AF1C;
-    width: 1347px;
-    height: 99px;
-    word-spacing: 30px;
+    background-color: #9ECEFA;
+    height: 95px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
 
 .logo {
-    padding: 0;
-    margin: 0;
-    position: absolute;
-    color: white;
-    top: 30px;
-    left: 20px;
+    font-family: 'Fascinate', cursive;
+    color: #87119A;
+    margin-left: 30px;
+}
+
+.navegador a {
+    margin-right: 50px;
 }
 
 .menu a {
+    color: goldenrod;
+    font-size: 24px;
     text-decoration: none;
-    color: #FFFFFF;
-    font-size: 21px;
-    font-family: arial;
-    position: relative;
-    top: 38px;
-    left: 900px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
-.home {
-    color:#3B06D2;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    font-style: bold;
-    position: relative;
-    left: 20px;
+a:hover {
+    color: #87119A;
 }
 
-.servicios {
-    color:#D206B2;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    font-style: bold;
-    position: relative;
-    left: 20px;
+.parrafo {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 35px;
+    width: 196vh;
 }
 
-.portafolio {
-    color: #AAD206;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    font-style: bold;
-    position: relative;
-    left: 20px;
-}
-
-.contacto {
-    color: aqua;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    font-style: bold;
-    position: relative;
-    left: 20px;
-}
-
-p {
-    position: relative;
-    left: 20px;
-}
-
-img {
-    position: relative;
-    left: 40px;
+.titulo {
+    color: #87119A;
+    border-left: 5px solid #87119A;
     padding: 10px;
-}
-
-li {
-    position: relative;
-    left: 50px;
-}
-
-.servicio1 {
-    color: red;
+    margin-top: 50px;
     font-weight: bold;
 }
 
-.servicio2 {
-    color: blue;
+.parrafo p {
+    font-size: 16px;
+    width: 100%;
+    line-height: 35px;
+    font-size: 15px;
+}
+
+.galeria1 {
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.galeria2 {
+    display: flex;
+    justify-content: center;
+}
+
+.galeria2 .imagen {
+    margin-top: 50px;
+    padding: 25px;
+}
+
+.galeria3 {
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.galeria4 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.galeria5 {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.informacion {
+    padding: 30px;
+    line-height: 35px;
+}
+
+.pie {
+    background-color: #9ECEFA;
+    height: 95px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 500px;
+}
+
+.izquierda {
+    margin-left: 30px;
     font-weight: bold;
 }
 
-.servicio3 {
-    color: orange;
+.derecha {
+    margin-right: 30px;
     font-weight: bold;
 }
 
-.servicio4 {
-    color: aqua;
-    font-weight: bold;
-}
-
-.servicio11 {
-    color: rgb(228, 170, 64);
-    font-weight: bold;
-}
-
-.servicio22 {
-    color: rgb(184, 16, 16);
-    font-weight: bold;
-}
-
-.servicio33 {
-    color: rgb(57, 54, 241);
-    font-weight: bold;
-}
-
-.servicio44 {
-    color: rgb(100, 150, 78);
-    font-weight: bold;
-}
-
-table {
-    border: 1px solid black;
-}
-
-.rectangulo {
-    position: relative;
-    border: 1px solid black;
-    left: 20px;
-    width: 1300px;
-    height: 60px;
-}
-
-.rectangulo2 {
-    position: relative;
-    border: 1px solid black;
-    left: 20px;
-    width: 1300px;
-    height: 214px;
-    top: 10px;
-}
-
-.nombreyapellido {
-    position: absolute;
-    left: 10px;
-    top: 20px;
-
-}
-
-.detalle {
-    position: absolute;
-    left: 10px;
-    top: 15px;
-}
-
-.rectangulo3 {
-    position: relative;
-    border: 1px solid #00AF1C;
-    left: 20px;
-    height: 40px;
-    width: 120px;
-    top: 30px;
-}
-
-.enviar a {
-    color: #00AF1C;
-    position: absolute;
-    left: 35px;
-    top: 10px;
-    font-size: medium;
-    text-decoration: none;
-}
-
-.footer {
-    background-color:  #00AF1C;
-    position: relative;
-    top: 200px;
-    width: 1347px;
-    height: 99px;
-}
-
-.tdr {
-    color: white;
-    position: absolute;
-    left: 20px;
-    top: 40px;
-    font-size: 24px;
-    font-family: arial;
-}
-
-.creador {
-    color: white;
-    position: absolute;
-    right: 20px;
-    top: 40px;
-    font-size: 24px;
-    font-family: arial;
-}
+.derecha[]
